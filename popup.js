@@ -11,7 +11,8 @@ $(function(){
             { src: "img/img5.jpg"},
 
         ],
-        overlay:true
+        overlay: 'vegas/overlays/08.png',
+        animation: 'kenburns',
     });
 
 
