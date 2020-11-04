@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reno Omokiri Tweets</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="vegas/vegas.min.css">
+    </head>
+    <body>
+
+      <div class="wrapper">
+        <div class="nav">
+            <span class="clock"><span></span> </span>
+        </div>
+      </div>  
+
+        <div class="container center">
+                <span class="inputName" id="hello">Hello,</span>
+                <span contenteditable="true" class="inputName" id="inputName"></span>
+            
+        </div>
+
+        <div class="tweetsCard">
+
+            <div class="tweetHeader">
+                <div class="imgwrapper">
+                    <img src="" id="tweetimg" alt="tweets" width="40px"  class="avr">
+                </div>
+                <div class="user-info">
+                    <p id="tweetName"></p>
+                    <p id="screenName"></p>
+                </div>
+                <div class="twitterIcon">
+                    <img src="img/twitter.svg" width="20px" alt="">
+                </div>
+            </div>
+
+            <div class="tweetBody">
+                <p id="mainTweet"></p>
+            </div>
+            <div class="tweetTime">
+                <p>6m - Oct 10, 2010</p>
+            </div>
+
+            <div class="control">
+                <div class="controltext">
+                    <div class="reply">
+                        <img src="img/ic_comments.svg" alt="">
+                    </div>
+                    <span class="countComment"></span>
+                </div>
+
+                <div class="controltext">
+                    <div class="reply">
+                        <img src="img/ic_retweet.svg" alt="">
+                    </div>
+                    <span class="countRetweet"></span>
+                </div>
+
+                <div class="controltext">
+                    <div class="reply">
+                        <img src="img/ic_like.svg" alt="">
+                    </div>
+                    <span class="countReply"></span>
+                </div>
+                
+
+                
+            </div>
+
+        </div>
+
+
+
+    <script src="jquery.js"></script>
+    <script src="vegas/vegas.min.js"></script>
+    <script src="popup.js"></script>
+    </body>
+</html>
