@@ -32,7 +32,6 @@ h1{
     width: 520px;
     padding: 20px;
     margin: 20px;
-    display: none;
 
 }
 .tweetHeader{
@@ -64,7 +63,7 @@ a{
 }
 .twitterIcon{
     position: relative;
-    left: 280px;
+    left: 180px;
 }
 .control{
     display: flex;
@@ -105,7 +104,7 @@ a{
     width: 100%;
     padding: 10px;
     margin-top: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     text-align: center;
   }      
  
