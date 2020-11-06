@@ -40,8 +40,8 @@ $(function(){
     $('.inputName').blur(function(){
         var content = $('#inputName').html();
         if(content == ""){
-            localStorage.setItem('name', "Nick Name");
-            $('#inputName').html("Nick Name");
+            localStorage.setItem('name', "Enter Nick Name");
+            $('#inputName').html("Enter Nick Name");
         }else{
             localStorage.setItem('name', content);
         }
@@ -58,8 +58,8 @@ $(function(){
         if (e.which == 13) {
 
             if(content == ""){
-                localStorage.setItem('name', "Nick Name");
-                $('#inputName').html("Nick Name");
+                localStorage.setItem('name', "Enter Nick Name");
+                $('#inputName').html("Enter Nick Name");
             }else{
                 localStorage.setItem('name', content);
                 $('#inputName').blur();

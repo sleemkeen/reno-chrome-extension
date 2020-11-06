@@ -3,7 +3,7 @@
   
     "name": "Reno Omokiri Tweets",
     "description": "This extension will collate Reno Omokiri tweets and arrange them in verses with beautiful slideshow",
-    "version": "0.0.0.1",
+    "version": "0.0.0.2",
     "icons": {
         "128": "icon128.png",
         "48": "icon48.png",
